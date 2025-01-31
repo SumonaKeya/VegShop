@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VegShop</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        .font-sora {
+            font-family: "Sora", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-sora">
+
+    <header class="md:container mx-auto">
+        <nav class="pt-6">
+            <div class="flex justify-around items-center">
+                <div class="pr-6">
+                    <img src="./images/logo-header.png" alt="logo img" class="h-10">
+                </div>
+
+                <div class="flex space-x-8">
+                    <a href="">Product</a>
+                    <a href="">Services</a>
+                    <a href="">Contact us</a>
+                </div>
+
+                <div class="flex space-x-4">
+                    <img src="./images/search-interface-symbol.png" alt="search-symbol img" class="h-6 w-6">      
+                    <img src="./images/shopping-cart.png" alt="cart img" class="h-6 w-6">   
+                    <button class="border border-green-400 text-sm p-2 rounded-lg">Login</button>
+                    <button class="bg-green-600 text-white text-sm px-4 py-2 rounded-lg border border-green-400">Register</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Freshness section -->
+        <section class="md:container mx-auto p-20 bg-[#EFEBE3]">
+            <div>
+                <h1 class="font-bold text-5xl text-center">Freshness <span class="text-green-600 font-bold">You Can Count</span> On, Prices You'll Love!</h1>
+            </div>
+            <div class="flex justify-center">
+                <img src="./images/hero-vegetables.png" alt="nav img" class="w-full max-w-4xl p-10 h-auto">   
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
