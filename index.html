@@ -19,6 +19,17 @@
         .font-sora {
             font-family: "Sora", sans-serif;
         }
+        @keyframes bounce {
+            0%,100%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-20px);
+            }
+        }
+        .hover\:bounce:hover{
+            animation: bounce 0.5s;
+        }
     </style>
 </head>
 <body class="font-sora">
@@ -64,7 +75,7 @@
            <p class=" text-xl  pt-2 text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
             </div>
             <div class="flex justify-center">
-                <img src="./images/hero-vegetables.png" alt="nav img" class="w-full max-w-4xl p-10 h-auto">   
+                <img src="./images/hero-vegetables.png" alt="nav img" class="w-96 max-w-4xl p-10 h-auto hover:bounce">   
             </div>
         </section>
 
